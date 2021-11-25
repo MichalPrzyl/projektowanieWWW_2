@@ -102,24 +102,43 @@ body{
 
 @media (max-width: 600px) {
     .menu-navbar{
-        justify-content: center;
-        align-items: center;
-        font-size: 0.5em;
+        /* display: block;
+        border: 1px solid black;
+        font-size: 1em;
+        padding-top: 0;
+        margin: 0 auto; */
+        display:flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+    .menu-link{
+        text-align: center;
+        /* padding: 5px 5px; */
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main-title-container{
+        margin: 0;
     }
     .main-title{
-        font-size: 2em;
+        font-size: 3em;
         text-align: center;
     }
     .small-title-container{
         width: auto;
         flex-direction: column;
+        align-items: center;
+        margin: 0;
+        
     }
     .small-title{
         font-size: 1em;
     }
-    .menu-link{
-        padding: 5px 5px;
-    }
+    
     .kali-quote{
         opacity: 0;
     }
