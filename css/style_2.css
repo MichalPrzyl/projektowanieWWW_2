@@ -23,6 +23,12 @@
     margin: 10px 90px ;
 }
 
+.tech-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .tech-image img{
     width: 150px;
 }
@@ -31,4 +37,33 @@
     text-align: center;
     font-size: 2em;
     font-weight: bold;
+}
+
+
+@media (max-width: 1000px) {
+    .content-header{
+        font-size: 1em;
+        margin-bottom: 35px;
+    }
+    .tech-image img{
+        width: 75px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .content-container{
+        width:90%;
+    }
+    .content-header{
+        font-size: 0.5em;
+    }
+    .tech-image img{
+        width: 50px;
+    }
+    .tech-header{
+        text-align: center;
+        font-size: 0.7em;
+        font-weight: bold;
+    }
 }
