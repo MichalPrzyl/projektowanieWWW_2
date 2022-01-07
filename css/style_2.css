@@ -16,11 +16,13 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    border: 1px solid black;
 }
 
 .technology{
-    /* border: 2px solid black; */
-    margin: 10px 90px ;
+    border: 2px solid black;
+    /* margin: 10px 90px ; */
+    width: 30%;
 }
 
 .tech-image{
@@ -36,11 +38,15 @@
 .tech-header{
     text-align: center;
     font-size: 2em;
-    font-weight: bold;
+    font-weight: bold;  
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
+    .technology{
+        border: 2px solid black;
+        width: 45%;
+    }
     .content-header{
         font-size: 1em;
         margin-bottom: 35px;
@@ -49,6 +55,13 @@
         width: 75px;
     }
 
+}
+
+@media (max-width: 600px) {
+    .technology{
+        border: 2px solid black;
+        width: 80%;
+    }
 }
 
 @media (max-width: 320px) {
