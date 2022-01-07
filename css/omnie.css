@@ -13,6 +13,39 @@
 }
 
 .galery{
-    margin-top: 140px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    color: black;
+}
+.galery-wrapper{
+    margin-top: 50px;
+    /* border: 1px solid black; */
+}
+.gallery-header{
+    /* border: 1px solid black; */
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    background: #ffa200;
+    border-radius: 30px;
+    /* box-shadow: 0 0 10px 5px #0398fc; */
+    margin-bottom: 50px;
+}
+.galery img{
+    width: 250px;
+}
+
+
+@media (max-width: 600px) {
+    .galery img{
+        width: 100px;
+    }
+    .desc{
+        margin-top: 20px;
+        width: 80%;
+        font-size: 0.9em;
+        line-height: 1em;
+    }
+    .gallery-header{
+        font-size: 2em;
+    }
 }
