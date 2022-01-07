@@ -7,7 +7,6 @@
 .contact-desc{
     margin-top: 50px;
     font-size: 1.3em;
-    
 }
 
 .my-email{
@@ -69,4 +68,44 @@ textarea{
 .buttons-wrapper input:hover{
     cursor: pointer;
     background: #006ab0;
+}
+
+@media (max-width: 1000px) {
+    .contact-desc{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .buttons-wrapper input{
+        font-size: 1em;
+    }
+
+    textarea{
+        font-size: 1em;
+    }
+    input, textarea{
+        width: 50%;
+        background: #74c6fc;
+        font-size: 0.9em;
+        border: 0;
+        text-align: left;
+    }
+    .form-label{
+        width: 150px;
+        text-align: center;
+        background: #0398fc;
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .contact-desc{
+        margin-top: 30px;
+        font-size: 1.3em;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 0.8em;
+    }
 }
