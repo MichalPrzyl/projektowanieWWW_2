@@ -1,0 +1,128 @@
+
+/*
+
+.skill-label{
+    display: flex;
+    justify-content: center;
+    float: left;
+    width: 150px;
+    background: #32bbbf;
+    color: white;
+    font-size: 20px;
+}
+
+.percent{
+    background: #32bbbf;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    float: left;
+}
+
+.progressBar{
+    float: left;
+    width: 300px;
+    border: 1px solid black;
+    height: 20px;
+}
+
+.progressBar-inside{
+ height: 100%;
+ background: red;
+ animation: left-to-right 3s forwards ease-in-out;
+}
+
+@keyframes left-to-right{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        
+    }
+} */
+
+
+.experience-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-header{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.skillset{
+    width: 50%;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+.skill-label{
+    width: 50%;
+    background: #0398fc;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px 3px #00395e;
+}
+.skill-label-percent{
+    width: 10%;
+    text-align: center;
+    padding: 8px;
+}
+.progress-bar{
+    width: 100%;
+    background: #80ccff;
+    box-shadow: 0 0 5px 3px #0077c7;
+}
+
+.progress-bar-inside{
+    background: #0398fc;
+    height: 100%;
+    animation: left-to-right 3s forwards ease-in-out;
+}
+
+
+@keyframes left-to-right{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .skillset{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 750px) { 
+    .skillset{
+        width: 95%;
+    }
+}
+
+@media (max-width: 615px) {
+    .skillset{
+        font-size: 0.5em;
+    }
+}

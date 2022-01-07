@@ -1,0 +1,72 @@
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-desc{
+    margin-top: 50px;
+    font-size: 1.3em;
+    
+}
+
+.my-email{
+    font-weight: bold;
+}
+
+
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.form-element{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.form-label{
+    width: 150px;
+    text-align: center;
+    background: #0398fc;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+}
+
+input, textarea{
+    width: 350px;
+    background: #74c6fc;
+    font-size: 1.2em;
+    border: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+
+textarea{
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.buttons-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.buttons-wrapper input{
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 2em;
+    padding-left: 0;
+}
+
+.buttons-wrapper input:hover{
+    cursor: pointer;
+    background: #006ab0;
+}
