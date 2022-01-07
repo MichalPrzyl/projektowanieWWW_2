@@ -6,7 +6,7 @@ Najszybszym sposobem, żeby się ze mną skontaktować jest wysłanie maila na a
 
 O mnie:
 Nazywam się Michał Przyłucki. Programowanie to moja pasja odkąd pamiętam. Uważam, że nauka kodowania wzmacnia inne umiejętności takie jak logiczne myślenie czy analityczne podejście do problemu. Kodowałem w bardzo wielu językach, jednocześnie nie zostając w nich ekspertem. Mimo to, mogę śmiało powiedzieć, że nawet małe projekty w innych językach znacząco poszerzyły mój światopogląd. Teraz zawodowo zajmuję się tworzeniem oprogramowania dla laboratoriów. Wartwa wizualna (frontend) jest napisana za pomocą Reacta - używając TypeScriptu, backend za pomocą Django oraz pythona, a baza danych, której używam to PostGres. Każdy z tych "modółów" jest odizolowany od innych dzięki konteneryzacji (Docker).
-W wolnym czasie (co to takiego?) nadal programuję tylko, że mikrokontrolery. Elektronika to również moje hobby. Poza tym czytam książki (fantasy), interesuję się psychologią, e-handlem (prowadziłem swój sklep internetowy), księgowością, motoryzacją
+W wolnym czasie (co to takiego?) nadal programuję tylko, że mikrokontrolery. Elektronika to również moje hobby. Poza tym czytam książki (fantasy), interesuję się psychologią, e-handlem (prowadziłem swój sklep internetowy), księgowością oraz motoryzacją.
 
 Doświadczenie:
 

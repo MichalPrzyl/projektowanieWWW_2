@@ -20,6 +20,7 @@
 .technology{
     /* margin: 10px 90px ; */
     width: 30%;
+    margin-top: 50px;
 }
 
 .tech-image{
@@ -60,11 +61,14 @@
 }
 
 @media (max-width: 320px) {
+    .technology{
+        margin-top: 10px;
+    }
     .content-container{
         width:90%;
     }
     .content-header{
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
     .tech-image img{
         width: 50px;
