@@ -1,49 +1,7 @@
 
-/*
-
-.skill-label{
-    display: flex;
-    justify-content: center;
-    float: left;
-    width: 150px;
-    background: #32bbbf;
-    color: white;
-    font-size: 20px;
+.container{
+    /* height: 100vh; */
 }
-
-.percent{
-    background: #32bbbf;
-    color: white;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    width: 100px;
-    float: left;
-}
-
-.progressBar{
-    float: left;
-    width: 300px;
-    border: 1px solid black;
-    height: 20px;
-}
-
-.progressBar-inside{
- height: 100%;
- background: red;
- animation: left-to-right 3s forwards ease-in-out;
-}
-
-@keyframes left-to-right{
-    0%{
-        width: 0%;
-    }
-
-    100%{
-        
-    }
-} */
-
 
 .experience-content{
     display: flex;
@@ -52,16 +10,21 @@
     justify-content: center;
 }
 
+.container-and-header-wrapper{
+    /* height: 100vh; */
+}
+
 .experience-header{
     font-size: 2em;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 
 .skillset{
     width: 50%;
+    /* margin-bottom: 200px; */
+    /* border: 1px solid black; */
 }
 
 .skill{
@@ -96,6 +59,29 @@
     height: 100%;
     animation: left-to-right 3s forwards ease-in-out;
 }
+
+.small-footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:white;
+    background: #0398fc;
+    margin-top: 200px;
+}
+
+.footer-map{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-map-element{
+    transition: background 0.2s;
+}
+
+.footer-map-element:hover{
+    background: #004370;
+}
+
 
 
 @keyframes left-to-right{

@@ -1,0 +1,31 @@
+.footer{
+    background: #0398fc;
+    margin-top: 30px;
+    color: white;
+    padding: 10px;
+    /* position: relative; */
+    /* bottom: 0; */
+    
+}
+
+.footer-desc{
+
+}
+
+.map-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.map-element{
+    padding: 10px 20px;
+    transition: background 0.2s;
+}
+.map-element:hover{
+    background: #004370;
+}
+
+a{
+    /* border: 1px solid black; */
+}
